@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/script.js" defer></script>
     <title>Palindrome</title>
@@ -11,17 +17,17 @@
     <h1>The Codeblock</h1>
     <h2>Is it a palindrome?</h2>
 
-    <div class="container">
-      <p>Enter your text here to check if it is a palindrome</p>
+    <div class="container user-input">
+      <p>Enter in text to check for a palindrome:</p>
       <input type="text" id="text-input" />
       <button id="check-btn">Check</button>
       <p id="result"></p>
     </div>
 
-    <div class="container">
+    <div class="container definition">
       <p>
-        A palindrome is a word or sentence that's spelled the same way both
-        forward and backward, ignoring punctuation, case, and spacing.
+        A <span>palindrome</span> is a word or sentence that's spelled the same
+        way both forward and backward, ignoring punctuation, case, and spacing.
       </p>
     </div>
   </body>
